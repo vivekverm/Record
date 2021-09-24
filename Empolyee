@@ -1,0 +1,56 @@
+public class Empolyee {
+    String name;
+    int yoj;
+    String addr;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+        System.out.println(name);
+    }
+
+    public int getYoj() {
+        return yoj;
+    }
+
+    public void setYoj(int yoj) {
+        this.yoj = yoj;
+        System.out.println(yoj);
+    }
+
+    public String getAddr() {
+        return addr;
+    }
+
+    public void setAddr(String addr) {
+        this.addr = addr;
+        System.out.println(addr);
+    }
+
+    public static void main(String[] args) {
+        Empolyee obj1=new Empolyee();
+       obj1.getName();
+       obj1.getYoj();
+       obj1.getAddr();
+       obj1.setName("Aman");
+       obj1.setYoj(2021);
+       obj1.setAddr("Chandigard");
+       Empolyee obj2=new Empolyee();
+       obj2.getName();
+       obj2.getYoj();
+       obj2.getAddr();
+       obj2.setName("Sunil");
+       obj2.setYoj(2000);
+       obj2.setAddr("Mathura");
+       Empolyee obj3=new Empolyee();
+       obj3.getName();
+       obj3.getYoj();
+       obj3.getAddr();
+       obj3.setName("Rohan");
+       obj3.setYoj(2010);
+       obj3.setAddr("Agra");
+    }
+}
